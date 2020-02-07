@@ -1,135 +1,86 @@
 <!DOCTYPE html>
-<html lang="en-us">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Alex last</title>
-        <style>
+<html>
+<head>
+	<title>Alex Last</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
 
-    html body {
-        font-family: Raleway, sans-serif;
-        background-color: white;
-    }
+	<div class="container">
+		<div class="hero">
+			<h1 class="name"><strong>Alex</strong> Last</h1>
+			<span class="job-title">SRE</span>
+			<span class="email">me@alexla.st</span>
 
-    :root {
-        --accent:  #3390ff;
-        --border-width:  5px ;
-    }
+			<h2 class="lead">Site reliability engineer, specialising in building globally scaleable platforms and distributed systems.</h2>
+		</div>
+	</div>
 
-</style>
+<!-- Skills and tooling section -->
+	<div class="container">
 
+		<div class="sections">
+			<h2 class="section-title">Skills</h2>
 
-<link rel="stylesheet" href="/css/main.css">
-
-
-
-
-
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-
-
- <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/solarized-dark.min.css"> 
-
-
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
-
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
- 
-
-
-    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
-
-     <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/go.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/haskell.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/kotlin.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/scala.min.js"></script>  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/swift.min.js"></script> 
-
-    <script>hljs.initHighlightingOnLoad();</script>
-
-
-
-
-
-
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+			<div class="list-card">
+				<span class="exp">3+ years</span>
+				<div>
+					<h3>Containers</h3>
+					<span>Kubernetes, Docker and Spinnaker</span>
+				</div>
+			</div>
+			
+			<div class="list-card">
+				<span class="exp">6+ years</span>
+				<div>
+					<h3>AWS</h3>
+					<span>EC2, RDS, Lambda, S3, SQS and DynamoDB</span>
+				</div>
+			</div>	
+					
+			<div class="list-card">
+				<span class="exp">7+ years</span>
+				<div>
+					<h3>Linux</h3>
+					<span>Systems engineering, networking and storage</span>
+				</div>
+			</div>
 
 
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+		</div>
+		<div class="sections">
+				<h2 class="section-title">Tooling</h2>
+				
+				<div class="list-card">
+					<div>
+						<h3>Languages</h3>
+						<span>Python, Bash and GO</span>
+					</div>
+				</div>	
 
+				<div class="list-card">
+					<div>
+						<h3>Infrastructure</h3>
+						<span>Terraform, Kops and Jenkins</span>
+					</div>
+				</div>
+				
+				<div class="list-card">
+					<div>
+						<h3>Software</h3>
+						<span>Nginx, Elasticsearch and Redis</span>
+					</div>
+				</div>		
+		</div>
+	</div>
 
-<script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
- <meta name="generator" content="Hugo 0.27" />
-        
-        <link href="https://alexla.st/index.xml" rel="alternate" type="application/rss+xml" title="Alex last" />
-        <link href="https://alexla.st/index.xml" rel="feed" type="application/rss+xml" title="Alex last" />
-        
-    </head>
+	<div class="container cards"></div>
 
-    <body>
-
-        <nav class="navbar navbar-default navbar-fixed-top">
-
-            <div class="container">
-
-                <div class="navbar-header">
-
-                    <a class="navbar-brand visible-xs" href="#">Alex last</a>
-
-                    <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-
-                </div>
-
-                <div class="collapse navbar-collapse">
-
-                    
-                        <ul class="nav navbar-nav">
-                            
-                                <li><a href="/">Home</a></li>
-                            
-                        </ul>
-                    
-
-                    
-                        <ul class="nav navbar-nav navbar-right">
-                            
-                                <li class="navbar-icon"><a href="mailto:me@alexla.st"><i class="fa fa-envelope-o"></i></a></li>
-                            
-                                <li class="navbar-icon"><a href="https://github.com/AlexLast/"><i class="fa fa-github"></i></a></li>
-                            
-                                <li class="navbar-icon"><a href="https://www.linkedin.com/in/alexrlast/"><i class="fa fa-linkedin"></i></a></li>
-                            
-                        </ul>
-                    
-
-                </div>
-
-            </div>
-
-        </nav>
-
-
-<main>
-
-    <div class="intro">
-
-        <h1>Alex last</h1>
-
-        <h2>DevOps Engineer - AWS Solutions Architect - Python Programmer</h2>
-
-    </div>
-
-</main>
-
-        <footer>
-
-            <p class="copyright text-muted">&copy; All rights reserved. Powered by <a href="https://gohugo.io">Hugo</a> and <a href="https://github.com/calintat/minimal">Minimal</a></p>
-
-        </footer>
-
-    </body>
-
+	<footer class="container">
+		<span style="font-size: 16px; margin-top: ">Designed by <a href="https://dribbble.com/shots/4342703-Minimal-resume-freebie-for-junior-self-taught-people">Nicolas Meuzard</a></span>
+	</footer>
+	
+</body>
 </html>
-
